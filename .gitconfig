@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gui]
+	recentrepo = C:/Users/AA/Desktop/git/local rep
+[user]
+	name = prof.amanprat
+	email = amanpratapsingh889@gmail.com
